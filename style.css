@@ -81,6 +81,28 @@ marquee h1{
 .size{
     font-size: 2vw;
 }
+.thanks{
+    padding: 10px;
+    background-color: rgba(50, 57, 139, 0.748);
+    border-radius: 10px;
+    margin: 0 10px;
+}
+.thanks i{
+    font-size: 7vw;
+    animation: glow infinite 5s linear;
+}
+
+@keyframes glow {
+    0%{
+        color: rgb(255, 33, 33);
+    }
+    50%{
+        color: aquamarine;
+    }
+    100%{
+        color: red;
+    }
+}
 
 .end{
     width: 100%;
